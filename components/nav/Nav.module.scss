@@ -1,0 +1,217 @@
+@import "../../styles/mixins";
+
+.container {
+  //background: #1354dc;
+  background: #1354dc;
+  color: #fff;
+  padding: 1em 0 1.5em 0;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  // font-family: PT-Median;
+}
+.containerM {
+  display: none;
+}
+.content {
+  //background: pink;
+  width: 87%;
+  max-width: 1300px;
+  margin: auto;
+  @include flexRegular(row, flex-start);
+  //   color: #fff;
+}
+.left {
+  //background: #7da0ec;
+  width: 20%;
+  margin-top: 10px;
+  @include flexRegular(row, flex-start);
+}
+.middle {
+  //background: pink;
+  .links {
+    @include flexRegular(row, center);
+    p {
+      margin: 0 1.5em;
+      font-size: 18px;
+      transition: 0.2s ease-in;
+      font-weight: 300;
+      &:hover {
+        transform: scale(1.1);
+        // color: #fd7b7e;
+        // color: rgba(101, 81, 243, 1);
+        filter: hue-rotate(360deg);
+      }
+    }
+    //background: pink;
+  }
+  width: 55%;
+}
+.right {
+  //background: lavender;
+  //margin-left: 1em;
+  @include flexRegular(row, flex-end);
+
+  align-items: flex-end;
+  width: 25%;
+  button {
+    @include btnRegular(#fff, 20vw);
+    max-width: 180px;
+    font-size: 16px;
+    font-family: "Satoshi-Bold";
+    color: #1354dc;
+    &:hover {
+      transform: scale(1.05);
+      //filter: hue-rotate(360deg);
+    }
+  }
+}
+
+// Nav Mobile ------>
+.containerM {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  display: none;
+  background: #1354dc;
+  //background: #6551f3;
+  position: fixed;
+  z-index: 3;
+  //width: 100vw !important;
+  padding: 1em 0.2;
+  color: #fff;
+
+  .contentM {
+    @include flexRegular(row, space-between);
+    align-items: center;
+    width: 100%;
+    //margin: 0 2.5%;
+    padding: 1em 0.7em;
+    // background: #6551f3;
+    background: #1354dc;
+    //background: pink;
+
+    .logoBoxM {
+      //background: #b3c1df;
+      position: relative;
+      //z-index: 2;
+      width: 50%;
+      margin-top: 3px;
+      //transform: scale(0.75);
+      //margin-left: 0.5em;
+      img {
+        // width: 130px;
+        // height: 36px;
+        width: 60%;
+      }
+
+      h1 {
+        margin-top: 0;
+        font-size: 1.8em;
+        //background: rgb(223, 148, 148);
+        //font-family: Averta;
+        color: #fff;
+      }
+    }
+  }
+
+  .navMenu {
+    position: fixed;
+    background: #1354dc;
+    //padding: 1em 0;
+    top: 10vh;
+    right: -100vw;
+    width: 100%;
+    height: 90vh;
+    z-index: 1;
+    overflow: auto !important;
+    .logoM2 {
+      position: relative;
+      img {
+        position: absolute;
+        left: 5%;
+        top: 1.3em;
+        //top: 100px;
+      }
+    }
+    .menuContent {
+      width: 90%;
+      //background: lavender;
+      @include flexRegular(column, flex-start);
+      align-items: flex-start;
+      margin: 4em auto 0 auto;
+      font-size: 1.2em;
+      padding: 0;
+
+      .menuLinks {
+        list-style: none;
+        color: #fff;
+
+        li {
+          opacity: 0;
+          margin-bottom: 3em;
+          padding-left: 1.1em;
+        }
+      }
+    }
+
+    .menuBtns {
+      @include flexRegular(row, center);
+      opacity: 0;
+      margin-top: 20vh;
+
+      button {
+        @include btnRegular(#fff, 45vw);
+        height: 65px;
+        min-width: 120px;
+        max-width: 610px;
+        color: #1354dc;
+        margin-right: 1em;
+        //font-family: PT-Median;
+        font-family: "Satoshi-Bold";
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+@media (max-width: 1230px) {
+  .mid {
+    width: 70%;
+  }
+}
+@media (max-width: 1114px) {
+  .content {
+    width: 96%;
+    margin: auto;
+  }
+  .left {
+    //background: lavender;
+    width: 17%;
+  }
+  .middle {
+    // background: cornsilk;
+    //background: pink;
+    width: 60%;
+    .links {
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .container {
+    display: none;
+  }
+
+  .containerM {
+    display: flex;
+    width: 100%;
+
+    .navMenu {
+      right: -100vw;
+    }
+  }
+}
