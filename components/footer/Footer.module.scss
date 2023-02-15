@@ -1,0 +1,46 @@
+@import "../../styles/mixins";
+
+.container {
+  background: #1354dc;
+  padding: 4em 0 1em 0;
+}
+.content {
+  width: 87%;
+  max-width: 1300px;
+  margin: auto;
+  @include flexRegular(row, flex-start);
+
+  color: #fff;
+}
+.right {
+  margin-left: 26%;
+  @include flexRegular(row, flex-start);
+}
+.icons {
+  @include flexRegular(row, flex-start);
+  margin-right: 5em;
+  img {
+    margin-right: 1em;
+  }
+}
+.linksTop,
+.linksBody {
+  @include flexRegular(row, flex-start);
+  p {
+    margin-right: 1em;
+    cursor: pointer;
+  }
+}
+.linksTop {
+  font-family: "Satoshi-Medium";
+  font-size: 1.2em;
+}
+.linksBody {
+  font-size: 0.9em;
+}
+.copyright {
+  margin-top: 2.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+}

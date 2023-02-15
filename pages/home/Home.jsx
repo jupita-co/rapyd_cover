@@ -8,6 +8,14 @@ import AppStore from "./images/appstore.svg";
 import Spanner from "./images/spanner.png";
 import Google2 from "./images/google2.svg";
 import Apple2 from "./images/apple2.svg";
+import Services from "./images/services.svg";
+import Areas from "./images/areas.svg";
+import About from "./images/about.png";
+import Google3 from "./images/google3.svg";
+import Apple3 from "./images/apple3.svg";
+import Mech from "./images/mech.svg";
+import UserApp from "./images/userapp.svg";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -63,6 +71,89 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className={style.care}>
+        <div className={style.careContent}>
+          <h2>Focus on driving, we take care of your car</h2>
+          <div className={style.careBoxes}>
+            <div className={style.careBox}>
+              <Image src={Services} alt="services provided" />
+              <h3>Services Provided</h3>
+              <p>
+                Whether you&apos;re wondering why your car is not starting or
+                keeps jerking; or whether your car fault can be dealt with, here
+                is a list of common car faults our partner mechanics can fix.
+                This list is not exhaustive, however these are the common ones.
+              </p>
+            </div>
+            <div className={style.careBox}>
+              <Image src={Areas} alt="areas covered" />
+              <h3>Areas Covered</h3>
+              <p>
+                Get your car fixed at any of our 1000+ service points across -
+                Abuja, Lagos, Port Harcourt, Enugu. Don&apos;t live in any of
+                these cities? Not to worry, we are constantly expanding our
+                reach and will be in you city soon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={style.about}>
+        <div className={style.aboutContent}>
+          <div className={style.aboutLeft}>
+            <Image src={About} alt="about us" />
+          </div>
+          <div className={style.aboutRight}>
+            <div className={style.aboutTxt}>
+              <h2>About us</h2>
+              <p>
+                It doesn&apos;t matter where, when or why… if you&apos;ve broken
+                down, you&apos;re stranded. Fortunately, Rapyd Breakdown Cover
+                operates a smart network of garages and rescue specialists to
+                help get you moving again - no matter what. We are all about
+                providing drivers complete peace of mind and have consistently
+                been at the forefront of developing motoring services; and day
+                to day breakdown cover has always been our number one priority.
+                We are the only day to day break down cover service in Africa!.
+                Our purpose? To take customers from confusion to clarity.
+                Let&apos;s face it, finding the right garage to fix your car can
+                be a bit of a chore. And with all the choice and options, you
+                don&apos;t want to use up your time only to find out you may
+                have done it wrong later. Let&apos;s be the backup your car
+                needs, because everything you car care about is riding on our
+                repair.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={style.explore}>
+        <div className={style.exploreContent}>
+          <div className={style.exTitle}>
+            <h2>Explore more on our apps</h2>
+          </div>
+          <div className={style.exploreBox}>
+            <Image src={Mech} alt="download a mechanic app" />
+            <h3>Download the Mechanic app</h3>
+            <div className={style.exBtns}>
+              <Image src={Google3} alt="Get it on google play" />
+              <Image src={Apple3} alt="Get it on the app store" />
+            </div>
+          </div>
+          <div className={style.exploreBox}>
+            <Image src={UserApp} alt="download user app" />
+            <h3>Download the User app</h3>
+            <div className={style.exBtns}>
+              <Image src={Google3} alt="Get it on google play" />
+              <Image src={Apple3} alt="Get it on the app store" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer />
     </>
   );
 };
