@@ -159,7 +159,9 @@
   .hero {
     margin-top: 4.3em;
     padding: 4em 0 0 0;
-    background: url(./images/herosm2.png) no-repeat left left;
+    background: url(./images/herosm2.png) no-repeat;
+    background-position-x: left;
+    //background-position-y: top;
     background-size: cover;
   }
   .business {
