@@ -52,7 +52,9 @@ const Footer = () => {
                 <Link href="/privacyPolicy">
                   <p>Privacy Policy</p>
                 </Link>
-                <p>Terms of service</p>
+                <Link href="/terms">
+                  <p>Terms of service</p>
+                </Link>
               </div>
             </div>
           </div>
@@ -93,7 +95,9 @@ const Footer = () => {
               <Link href="/privacyPolicy">
                 <p>Privacy Policy</p>
               </Link>
-              <p>Terms of service</p>
+              <Link href="/terms">
+                <p>Terms of service</p>
+              </Link>
             </div>
           </div>
         </div>
