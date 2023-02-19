@@ -485,8 +485,8 @@ const PrivacyPolicy = () => {
             <p>
               7.3 We may also retain certain information if necessary for its
               legitimate business interests, such as fraud prevention and
-              enhancing users' safety and security. For example, if we shut down
-              a user's account because of unsafe behaviour or security
+              enhancing users&apos; safety and security. For example, if we shut
+              down a user&apos;s account because of unsafe behaviour or security
               incidents, we may retain certain information about that account to
               prevent that user from opening a new one in the future.
             </p>
@@ -518,9 +518,9 @@ const PrivacyPolicy = () => {
               law.
             </p>
             <p>
-              Please see the 'Information Retention & Deletion' section above
-              for more information regarding The Company's retention and
-              deletion practices.
+              Please see the &apos;Information Retention & Deletion&apos;
+              section above for more information regarding The Company&apos;s
+              retention and deletion practices.
               <br /> 8.4 Objections and complaints Users in Nigeria have the
               right to object to our processing of personal data, including for
               marketing purposes based on profiling and/or automated decision
@@ -599,15 +599,15 @@ const PrivacyPolicy = () => {
             </p>
             <p>(a). Location Information</p>
             <p>
-              We use rider's device location services to make it easier to get a
-              safe, reliable ride whenever you need one. Location data helps
-              improve our services, including pickups, navigation, and customer
-              support. You may enable/disable, or adjust, our collection of
-              rider location information at any time through the Privacy
-              Settings menu in the RAPYD app, or via the settings on your mobile
-              device. If you disable the device location services on your
-              device, your use of the RAPYD app will be affected. For example,
-              you will need to manually enter your pick-up or drop-off
+              We use rider&apos;s device location services to make it easier to
+              get a safe, reliable ride whenever you need one. Location data
+              helps improve our services, including pickups, navigation, and
+              customer support. You may enable/disable, or adjust, our
+              collection of rider location information at any time through the
+              Privacy Settings menu in the RAPYD app, or via the settings on
+              your mobile device. If you disable the device location services on
+              your device, your use of the RAPYD app will be affected. For
+              example, you will need to manually enter your pick-up or drop-off
               locations. In addition, location information will be collected
               from the driver during your trip and linked to your account, even
               if you have not enabled The Company to collect your location
@@ -615,8 +615,8 @@ const PrivacyPolicy = () => {
             </p>
             <p>(b). Share Live Location (Riders)</p>
             <p>
-              We use the rider's device location services to make it easier to
-              get a safe, reliable ride whenever you need one. Location data
+              We use the rider&apos;s device location services to make it easier
+              to get a safe, reliable ride whenever you need one. Location data
               helps improve our services, including pickups, navigation, and
               customer support. You may enable/disable, or adjust, our
               collection of rider location information at any time through the
