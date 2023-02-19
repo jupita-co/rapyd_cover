@@ -82,7 +82,7 @@ const Terms = () => {
               rights not expressly granted herein are reserved by Rapyd.
             </p>
             <p>
-              The term "Application" shall refer to and consist of the
+              The term &quot;Application&quot; shall refer to and consist of the
               following: (i) the mobile software application including, without
               limitation, any software code, scripts, interfaces, graphics,
               displays, text, documentation and other components; (ii) any
@@ -228,13 +228,13 @@ const Terms = () => {
               and agents, of any information and data related to or derived from
               your use of the Services and any information or data that you
               provide to Rapyd and its affiliates, partners and licensors
-              ("Information"). The Information may include, without limitation,
-              the following types of information and data, in an aggregate
-              search request, search results, patterns, data and suggestions
-              based on user actions. Notwithstanding the foregoing, you may not
-              provide or disclose any information or data that is personally
-              identifiable to you. The Information will be treated as being
-              non-confidential and non-proprietary, and Rapyd assumes no
+              (&quot;Information&quot;). The Information may include, without
+              limitation, the following types of information and data, in an
+              aggregate search request, search results, patterns, data and
+              suggestions based on user actions. Notwithstanding the foregoing,
+              you may not provide or disclose any information or data that is
+              personally identifiable to you. The Information will be treated as
+              being non-confidential and non-proprietary, and Rapyd assumes no
               obligation to protect confidential or proprietary information
               (other than personally identifiable information) from disclosure
               and will be free to reproduce, use, and distribute the Information
@@ -265,29 +265,29 @@ const Terms = () => {
             <h3>10. Disclaimer of Warranties</h3>
             <p>
               You acknowledge and agree that the Services and Application are
-              provided on an "as is” and "as available" basis, and that your use
-              of or reliance upon the Services and any third-party content and
-              services accessed thereby is at your sole risk and discretion.
-              Rapyd and its affiliates, partners, suppliers and licensors hereby
-              disclaim any representations, warranties and guarantees regarding
-              the application and third-party content and services, whether
-              express, implied or statutory, and including, without limitation,
-              the implied warranties of merchantability, fitness for a
-              particular purpose, and non-infringement. Furthermore, Rapyd and
-              its affiliates, partners, suppliers and licensors make no warranty
-              that (i) the Services and/or third-party content and services will
-              meet your requirements; (ii) the Services and/ or third-party
-              content and services will be uninterrupted, accurate, reliable,
-              timely, secure or error-free; (iii) the quality of any products,
-              services, information or other material accessed or obtained by
-              you through the Services will be as represented or meet your
-              expectations; or (iv) any errors in the Services or third party
-              content and services will be corrected. No advice or information,
-              whether oral or written, obtained by you from Rapyd or from the
-              Application shall create any representation, warranty or guaranty.
-              Furthermore, you acknowledge that Rapyd has no obligation to
-              correct any errors or otherwise support or maintain the
-              Application and/or Service
+              provided on an &quot;as is&quot; and &quot;as available&quot;
+              basis, and that your use of or reliance upon the Services and any
+              third-party content and services accessed thereby is at your sole
+              risk and discretion. Rapyd and its affiliates, partners, suppliers
+              and licensors hereby disclaim any representations, warranties and
+              guarantees regarding the application and third-party content and
+              services, whether express, implied or statutory, and including,
+              without limitation, the implied warranties of merchantability,
+              fitness for a particular purpose, and non-infringement.
+              Furthermore, Rapyd and its affiliates, partners, suppliers and
+              licensors make no warranty that (i) the Services and/or
+              third-party content and services will meet your requirements; (ii)
+              the Services and/ or third-party content and services will be
+              uninterrupted, accurate, reliable, timely, secure or error-free;
+              (iii) the quality of any products, services, information or other
+              material accessed or obtained by you through the Services will be
+              as represented or meet your expectations; or (iv) any errors in
+              the Services or third party content and services will be
+              corrected. No advice or information, whether oral or written,
+              obtained by you from Rapyd or from the Application shall create
+              any representation, warranty or guaranty. Furthermore, you
+              acknowledge that Rapyd has no obligation to correct any errors or
+              otherwise support or maintain the Application and/or Service
             </p>
             <h3>11. Limitation of Liability.</h3>
             <p>
@@ -304,19 +304,19 @@ const Terms = () => {
               You agree to indemnify, defend and hold harmless Rapyd and its
               affiliates, partners, suppliers and licensors, and each of their
               respective officers, directors, agents and employees (the
-              "Indemnified Parties") from and against any claim, proceeding,
-              loss, damage, fine, penalty, interest and expense (including,
-              without limitation, fees for attorneys and other professional
-              advisors) arising out of or in connection with the following: (i)
-              your access to or use of the Services or third-party content and
-              services; (ii) your breach of this Terms; (iii) your violation of
-              law in connection with your use of the Services; (iv) your
-              negligence or willful misconduct in connection with your use of
-              the Services; or (v) your violation of the rights of a third
-              party, including the infringement by you of any intellectual
-              property or misappropriation of any proprietary right or trade
-              secret of any person or entity. These obligations will survive any
-              termination of this Terms.
+              &quot;Indemnified Parties&quot;) from and against any claim,
+              proceeding, loss, damage, fine, penalty, interest and expense
+              (including, without limitation, fees for attorneys and other
+              professional advisors) arising out of or in connection with the
+              following: (i) your access to or use of the Services or
+              third-party content and services; (ii) your breach of this Terms;
+              (iii) your violation of law in connection with your use of the
+              Services; (iv) your negligence or willful misconduct in connection
+              with your use of the Services; or (v) your violation of the rights
+              of a third party, including the infringement by you of any
+              intellectual property or misappropriation of any proprietary right
+              or trade secret of any person or entity. These obligations will
+              survive any termination of this Terms.
             </p>
             <h3>13. Compatibility</h3>
             <p>
