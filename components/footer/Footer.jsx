@@ -62,9 +62,9 @@ const Footer = () => {
           <div className={style.rightM}>
             <div className={style.linksM}>
               <div className={style.linksTopM}>
-                <Link href="/#about" />
-                <p>About us</p>
-
+                <Link href="/#about">
+                  <p>About us</p>
+                </Link>
                 <Link href="/#services">
                   <p>Services</p>
                 </Link>
@@ -92,10 +92,10 @@ const Footer = () => {
               </Link>
             </div>
             <div className={style.linksBodyM}>
-              <Link href="/#privacyPolicy">
+              <Link href="/privacyPolicy">
                 <p>Privacy Policy</p>
               </Link>
-              <Link href="/#terms">
+              <Link href="/terms">
                 <p>Terms of service</p>
               </Link>
             </div>
