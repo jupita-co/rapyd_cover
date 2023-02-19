@@ -14,13 +14,13 @@ const NavWeb = () => {
 
           <div className={style.middle}>
             <div className={style.links}>
-              <Link href="/">
+              <Link href="/#about">
                 <p>About us</p>
               </Link>
-              <Link href="/">
+              <Link href="/#services">
                 <p>Services</p>
               </Link>
-              <Link href="/">
+              <Link href="/#services">
                 <p>Locations</p>
               </Link>
               {/* <Link href="/aboutUs">
@@ -29,7 +29,7 @@ const NavWeb = () => {
             </div>
           </div>
           <div className={style.right}>
-            <a href="mailto:academy@jupita.co" target="_blank" rel="noreferrer">
+            <a href="/" target="_blank" rel="noreferrer">
               <button>Download App</button>
             </a>
           </div>

@@ -19,29 +19,39 @@ const Footer = () => {
 
           <div className={style.right}>
             <div className={style.icons}>
-              <Image src={Tw} alt="twitter" />
-              <Image src={In} alt="linkedIn" />
-              <Image src={Fb} alt="facebook" />
-              <Image src={Ig} alt="instagram" />
+              <Link href="https://twitter.com/rapydcars?s=11&t=0PkUIR9ilA8D797MYAn55A">
+                <Image src={Tw} alt="twitter" />
+              </Link>
+              <Link href="https://www.linkedin.com/company/rapydcars/">
+                <Image src={In} alt="linkedIn" />
+              </Link>
+              <Link href="https://www.facebook.com/rapydcarsng/?_rdc=1&_rdr">
+                <Image src={Fb} alt="facebook" />
+              </Link>
+              <Link href="https://www.instagram.com/rapydcars/?igshid=NDRkN2NkYzU%3D">
+                <Image src={Ig} alt="instagram" />
+              </Link>
             </div>
             <div className={style.links}>
               <div className={style.linksTop}>
-                <Link href="" />
+                <Link href="#about" />
                 <p>About us</p>
 
-                <Link href="">
+                <Link href="#services">
                   <p>Services</p>
                 </Link>
-                <Link href="">
+                <Link href="#services">
                   {" "}
                   <p>Locations</p>
                 </Link>
-                <Link href="">
+                {/* <Link href="">
                   <p>FAQs</p>
-                </Link>
+                </Link> */}
               </div>
               <div className={style.linksBody}>
-                <p>Privacy Policy</p>
+                <Link href="/privacyPolicy">
+                  <p>Privacy Policy</p>
+                </Link>
                 <p>Terms of service</p>
               </div>
             </div>
@@ -50,29 +60,39 @@ const Footer = () => {
           <div className={style.rightM}>
             <div className={style.linksM}>
               <div className={style.linksTopM}>
-                <Link href="" />
+                <Link href="#about" />
                 <p>About us</p>
 
-                <Link href="">
+                <Link href="#services">
                   <p>Services</p>
                 </Link>
-                <Link href="">
+                <Link href="#services">
                   {" "}
                   <p>Locations</p>
                 </Link>
-                <Link href="">
+                {/* <Link href="">
                   <p>FAQs</p>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className={style.iconsM}>
-              <Image src={Tw} alt="twitter" />
-              <Image src={In} alt="linkedIn" />
-              <Image src={Fb} alt="facebook" />
-              <Image src={Ig} alt="instagram" />
+              <Link href="https://twitter.com/rapydcars?s=11&t=0PkUIR9ilA8D797MYAn55A">
+                <Image src={Tw} alt="twitter" />
+              </Link>
+              <Link href="https://www.linkedin.com/company/rapydcars/">
+                <Image src={In} alt="linkedIn" />
+              </Link>
+              <Link href="https://www.facebook.com/rapydcarsng/?_rdc=1&_rdr">
+                <Image src={Fb} alt="facebook" />
+              </Link>
+              <Link href="https://www.instagram.com/rapydcars/?igshid=NDRkN2NkYzU%3D">
+                <Image src={Ig} alt="instagram" />
+              </Link>
             </div>
             <div className={style.linksBodyM}>
-              <p>Privacy Policy</p>
+              <Link href="/privacyPolicy">
+                <p>Privacy Policy</p>
+              </Link>
               <p>Terms of service</p>
             </div>
           </div>

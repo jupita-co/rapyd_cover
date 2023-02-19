@@ -157,7 +157,7 @@ a {
 html {
   overflow-y: scroll;
   height: 100%;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   -webkit-overflow-scrolling: touch;
 }
 

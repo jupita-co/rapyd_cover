@@ -113,17 +113,17 @@ const NavMobile = () => {
           <div className={style.menuContent}>
             <ul className={`${style.menuLinks} mLinks`}>
               <li className={style.mLink} ref={link1} onClick={handleToggle}>
-                <Link href="/crashCourse">About us </Link>
+                <Link href="/#about">About us </Link>
               </li>
               <li className={style.mLink} ref={link2} onClick={handleToggle}>
-                <Link href="/services">Services</Link>
+                <Link href="/#services">Services</Link>
               </li>
               <li className={style.mLink} ref={link3} onClick={handleToggle}>
-                <Link href="/aboutUs">Locations </Link>
+                <Link href="/#services">Locations </Link>
               </li>
             </ul>
             <div className={style.menuBtns} ref={menuBtns}>
-              <Link href="/crashCourse">
+              <Link href="/">
                 <button>Download App</button>{" "}
               </Link>
             </div>

@@ -13,8 +13,8 @@ import Areas from "./images/areas.svg";
 import About from "./images/about.png";
 import Google3 from "./images/google3.svg";
 import Apple3 from "./images/apple3.svg";
-import Mech from "./images/mech.svg";
-import UserApp from "./images/userapp.svg";
+import Mech from "./images/mech.png";
+import UserApp from "./images/userapp.png";
 import Footer from "../../components/footer/Footer";
 
 const Home = () => {
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      <div className={style.spacer} id="services"></div>
       <section className={style.care}>
         <div className={style.careContent}>
           <h2>Focus on driving, we take care of your car</h2>
@@ -99,7 +99,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      <div className={style.spacer} id="about"></div>
       <section className={style.about}>
         <div className={style.aboutContent}>
           <div className={style.aboutLeft}>
@@ -136,7 +136,10 @@ const Home = () => {
             <h2>Explore more on our apps</h2>
           </div>
           <div className={style.exploreBox}>
-            <Image src={Mech} alt="download a mechanic app" />
+            <div className={style.exImg}>
+              <Image src={Mech} alt="download a mechanic app" />
+            </div>
+
             <h3>Download the Mechanic app</h3>
             <div className={style.exBtns}>
               <Image src={Google3} alt="Get it on google play" />
@@ -144,7 +147,9 @@ const Home = () => {
             </div>
           </div>
           <div className={style.exploreBox}>
-            <Image src={UserApp} alt="download user app" />
+            <div className={style.exImg}>
+              <Image src={UserApp} alt="download user app" />
+            </div>
             <h3>Download the User app</h3>
             <div className={style.exBtns}>
               <Image src={Google3} alt="Get it on google play" />
