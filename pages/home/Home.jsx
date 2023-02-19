@@ -15,6 +15,7 @@ import Google3 from "./images/google3.svg";
 import Apple3 from "./images/apple3.svg";
 import Mech from "./images/mech.png";
 import UserApp from "./images/userapp.png";
+import HeroSm from "./images/herosm2.png";
 import Footer from "../../components/footer/Footer";
 
 const Home = () => {
@@ -23,6 +24,9 @@ const Home = () => {
       <Nav />
       <section className={style.hero}>
         <div className={style.heroContent}>
+          <div className={style.heroSm}>
+            <Image src={HeroSm} alt="rapyd" />
+          </div>
           <div className={style.coverBx}>
             <div className={style.coverBxTxt}>
               <h2>Get your car covered from breakdown</h2>

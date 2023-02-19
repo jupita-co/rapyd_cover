@@ -10,6 +10,9 @@
   //min-height: 2000px;
   position: relative;
 }
+.heroSm {
+  display: none;
+}
 .heroContent {
   width: 87%;
   max-width: 1300px;
@@ -157,19 +160,40 @@
 }
 @media (max-width: 575px) {
   .hero {
-    margin-top: 4.3em;
+    //margin-top: 4.3em;
+    margin-top: 0.5em;
     padding: 4em 0 0 0;
-    background: url(./images/herosm2.png) no-repeat;
-    background-position-x: left;
+    background: none;
+    // background: url(./images/herosm2.png) no-repeat;
+    // background-position-x: left;
     //background-position-y: top;
-    background-size: cover;
+    //background-size: cover;
+  }
+  .heroContent {
+    width: 100%;
+  }
+  .heroSm {
+    display: block;
+    img {
+      width: 100%;
+      //height: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+  }
+
+  .coverBx {
+    position: absolute;
+    top: 8em;
+    left: 5%;
+    width: 90%;
+    padding: 2em;
+    //padding: 2.7em 3.5em;
+    //background: pink;
+    //margin-bottom: 15em;
   }
   .business {
-    margin: 8em auto 0 auto;
-  }
-  .coverBx {
-    width: 100%;
-    padding: 2em;
+    margin: -10px auto 0 auto;
   }
   .coverBxTxt {
     h2 {
@@ -200,10 +224,13 @@
 }
 @media (max-width: 400px) {
   .hero {
-    margin-top: 4em;
+    margin-top: 0;
   }
 }
 @media (max-width: 375px) {
+  .coverBx {
+    padding: 1em;
+  }
   .coverBxBtns {
     // @include flexRegular(row, center);
     img {
