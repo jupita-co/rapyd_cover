@@ -26,20 +26,31 @@
     margin-right: 1em;
   }
 }
-.linksTop,
-.linksBody {
+// .linksTop,
+// .linksBody {
+//   @include flexRegular(row, flex-start);
+//   p {
+//     margin-right: 1em;
+//     cursor: pointer;
+//   }
+// }
+
+.linksTop {
   @include flexRegular(row, flex-start);
   p {
     margin-right: 1em;
     cursor: pointer;
   }
-}
-.linksTop {
   font-family: "Satoshi-Medium";
   font-size: 1.2em;
 }
 .linksBody {
   font-size: 0.9em;
+  @include flexRegular(row, space-around);
+  p {
+    margin-right: 0.01em;
+    cursor: pointer;
+  }
 }
 .copyright {
   margin-top: 2.3em;

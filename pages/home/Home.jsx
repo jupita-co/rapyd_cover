@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../../components/nav/Nav";
-//import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import style from "./Home.module.scss";
 import Google from "./images/google.svg";
@@ -86,8 +86,13 @@ const Home = () => {
               <p>
                 Whether you&apos;re wondering why your car is not starting or
                 keeps jerking; or whether your car fault can be dealt with, here
-                is a list of common car faults our partner mechanics can fix.
-                This list is not exhaustive, however these are the common ones.
+                is a
+                <Link href="/services">
+                  {" "}
+                  <span>list</span>{" "}
+                </Link>
+                of common car faults our partner mechanics can fix. This list is
+                not exhaustive, however these are the common ones.
               </p>
             </div>
             <div className={style.careBox}>
