@@ -192,12 +192,12 @@ const Services = () => {
                 <br /> - Left indicator is not working
                 <br /> - Steering is very heavy
                 <br /> - Gear box has slight leakage
-                <br /> - Cluth is hard
+                <br /> - Clutch is hard
               </p>
             </div>
             <div className={style.faultsRight}>
               <p>
-                .Petrol is not flowing in the engine
+                - Petrol is not flowing in the engine
                 <br /> - Gear problem in applying 1st and 3rd gear
                 <br /> - Gears are slipping
                 <br /> - Brakes are making a sound
